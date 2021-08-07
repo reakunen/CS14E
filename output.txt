@@ -1,0 +1,13 @@
+Radius: 24 Diameter: 48 Circumference: 150.796 Area: 1809.56
+Radius: 2 Diameter: 4 Circumference: 12.5664 Area: 12.5664
+Radius: 2 Diameter: 4 Circumference: 12.5664 Area: 12.5664
+Radius: 2 Diameter: 4 Circumference: 12.5664 Area: 12.5664
+You entered -10 for radius. You must enter a number greater than 0.
+You entered -2 for radius. You must enter a number greater than 0.
+You entered 0 for radius. You must enter a number greater than 0.
+Radius: 204 Diameter: 408 Circumference: 1281.77 Area: 130741
+You entered 0 for radius. You must enter a number greater than 0.
+You entered 0 for radius. You must enter a number greater than 0.
+You entered 0 for radius. You must enter a number greater than 0.
+You entered 0 for radius. You must enter a number greater than 0.
+You entered -2 for radius. You must enter a number greater than 0.
