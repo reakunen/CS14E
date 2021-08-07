@@ -1,0 +1,132 @@
+---- New Account ----
+
+Account: # 10            Name:   Darryl
+Balance: $   100.00      Credit: $  105.00
+
+---- New Account ----
+
+Account: # 30            Name: Spongebob
+Balance: $    44.00      Credit: $   49.00
+
+---- New Account ----
+
+Account: # 55            Name: Mr.Krabs
+Balance: $     0.00      Credit: $44212.00
+
+---- New Account ----
+
+Account: # 33            Name: Squidward
+Balance: $  1000.00      Credit: $ 5000.00
+
+---- New Account ----
+
+Account: # 53            Name:  Patrick
+Balance: $     0.00      Credit: $   10.00
+
+---- Query ----
+
+Account: # 10    Name:   Darryl    Balance: $    100.00     Credit: $  105.00
+Account: # 30    Name: Spongebob    Balance: $     44.00     Credit: $   49.00
+Account: # 33    Name: Squidward    Balance: $   1000.00     Credit: $ 5000.00
+Account: # 53    Name:  Patrick    Balance: $      0.00     Credit: $   10.00
+Account: # 55    Name: Mr.Krabs    Balance: $      0.00     Credit: $44212.00
+
+---- Payment ----
+Account #30 has paid $100.00
+
+Pre Payment: 
+Account: # 30            Name: Spongebob
+Balance: $    44.00      Credit: $   49.00
+
+Post Payment: 
+Account: # 30            Name: Spongebob
+Balance: $   -56.00      Credit: $   49.00
+
+---- Charge ----
+Account #53 has been charged $50.00
+
+Pre Charge: 
+Account: # 53            Name:  Patrick
+Balance: $     0.00      Credit: $   10.00
+
+ERROR: This account is unable to charge $50.00
+
+Post Charge: 
+Account: # 53            Name:  Patrick
+Balance: $     0.00      Credit: $   10.00
+
+---- Payment ----
+Account #30 has paid $100.00
+
+Pre Payment: 
+Account: # 30            Name: Spongebob
+Balance: $   -56.00      Credit: $   49.00
+
+Post Payment: 
+Account: # 30            Name: Spongebob
+Balance: $  -156.00      Credit: $   49.00
+
+---- Charge ----
+Account #53 has been charged $50.00
+
+Pre Charge: 
+Account: # 53            Name:  Patrick
+Balance: $     0.00      Credit: $   10.00
+
+ERROR: This account is unable to charge $50.00
+
+Post Charge: 
+Account: # 53            Name:  Patrick
+Balance: $     0.00      Credit: $   10.00
+
+---- Charge ----
+Account #55 has been charged $32.00
+
+Pre Charge: 
+Account: # 55            Name: Mr.Krabs
+Balance: $     0.00      Credit: $44212.00
+
+Post Charge: 
+Account: # 55            Name: Mr.Krabs
+Balance: $    32.00      Credit: $44212.00
+
+---- New Account ----
+
+Account: #  1            Name:    Sandy
+Balance: $   700.00      Credit: $ 1000.00
+
+---- Query ----
+
+Account: #  1    Name:    Sandy    Balance: $    700.00     Credit: $ 1000.00
+Account: # 10    Name:   Darryl    Balance: $    100.00     Credit: $  105.00
+Account: # 30    Name: Spongebob    Balance: $   -156.00     Credit: $   49.00
+Account: # 33    Name: Squidward    Balance: $   1000.00     Credit: $ 5000.00
+Account: # 53    Name:  Patrick    Balance: $      0.00     Credit: $   10.00
+Account: # 55    Name: Mr.Krabs    Balance: $     32.00     Credit: $44212.00
+
+---- New Account ----
+
+Account: # 23            Name:    Larry
+Balance: $    10.00      Credit: $  100.00
+
+---- Charge ----
+Account #23 has been charged $15.00
+
+Pre Charge: 
+Account: # 23            Name:    Larry
+Balance: $    10.00      Credit: $  100.00
+
+Post Charge: 
+Account: # 23            Name:    Larry
+Balance: $    25.00      Credit: $  100.00
+
+---- Query ----
+
+Account: #  1    Name:    Sandy    Balance: $    700.00     Credit: $ 1000.00
+Account: # 10    Name:   Darryl    Balance: $    100.00     Credit: $  105.00
+Account: # 23    Name:    Larry    Balance: $     25.00     Credit: $  100.00
+Account: # 30    Name: Spongebob    Balance: $   -156.00     Credit: $   49.00
+Account: # 33    Name: Squidward    Balance: $   1000.00     Credit: $ 5000.00
+Account: # 53    Name:  Patrick    Balance: $      0.00     Credit: $   10.00
+Account: # 55    Name: Mr.Krabs    Balance: $     32.00     Credit: $44212.00
+

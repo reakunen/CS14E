@@ -1,0 +1,155 @@
+---- New Account ----
+
+Account: #  1            Name:     Skye
+Balance: $   100.32      Credit: $  100.00
+
+---- New Account ----
+
+Account: # 34            Name:     Omen
+Balance: $     0.40      Credit: $    0.00
+
+---- New Account ----
+
+Account: #150            Name:     Yoru
+Balance: $     0.99      Credit: $ 1000.21
+
+---- New Account ----
+
+Account: #141            Name:     Raze
+Balance: $   100.24      Credit: $ 1000.23
+
+---- Query ----
+
+Account: #  1    Name:     Skye    Balance: $    100.32     Credit: $  100.00
+Account: # 34    Name:     Omen    Balance: $      0.40     Credit: $    0.00
+Account: #141    Name:     Raze    Balance: $    100.24     Credit: $ 1000.23
+Account: #150    Name:     Yoru    Balance: $      0.99     Credit: $ 1000.21
+
+---- Charge ----
+Account: #11 was not found. Failure to charge : $15.00
+
+---- New Account ----
+
+Account: # 14            Name:     Jett
+Balance: $    31.33      Credit: $  102.22
+
+---- New Account ----
+
+Account: # 33            Name:  Killjoy
+Balance: $  1443.22      Credit: $21222.11
+
+---- Charge ----
+Account #33 has been charged $15.00
+
+Pre Charge: 
+Account: # 33            Name:  Killjoy
+Balance: $  1443.22      Credit: $21222.11
+
+Post Charge: 
+Account: # 33            Name:  Killjoy
+Balance: $  1458.22      Credit: $21222.11
+
+---- Charge ----
+Account #34 has been charged $100.00
+
+Pre Charge: 
+Account: # 34            Name:     Omen
+Balance: $     0.40      Credit: $    0.00
+
+ERROR: This account is unable to charge $100.00
+
+Post Charge: 
+Account: # 34            Name:     Omen
+Balance: $     0.40      Credit: $    0.00
+
+---- Payment ----
+Account #1 has paid $300.00
+
+Pre Payment: 
+Account: #  1            Name:     Skye
+Balance: $   100.32      Credit: $  100.00
+
+Post Payment: 
+Account: #  1            Name:     Skye
+Balance: $  -199.68      Credit: $  100.00
+
+---- Payment ----
+Account #141 has paid $323.00
+
+Pre Payment: 
+Account: #141            Name:     Raze
+Balance: $   100.24      Credit: $ 1000.23
+
+Post Payment: 
+Account: #141            Name:     Raze
+Balance: $  -222.76      Credit: $ 1000.23
+
+---- Charge ----
+Account #150 has been charged $998.99
+
+Pre Charge: 
+Account: #150            Name:     Yoru
+Balance: $     0.99      Credit: $ 1000.21
+
+Post Charge: 
+Account: #150            Name:     Yoru
+Balance: $   999.98      Credit: $ 1000.21
+
+---- Query ----
+
+Account: #  1    Name:     Skye    Balance: $   -199.68     Credit: $  100.00
+Account: # 14    Name:     Jett    Balance: $     31.33     Credit: $  102.22
+Account: # 33    Name:  Killjoy    Balance: $   1458.22     Credit: $21222.11
+Account: # 34    Name:     Omen    Balance: $      0.40     Credit: $    0.00
+Account: #141    Name:     Raze    Balance: $   -222.76     Credit: $ 1000.23
+Account: #150    Name:     Yoru    Balance: $    999.98     Credit: $ 1000.21
+
+---- New Account ----
+
+Account: # 44            Name:     Sage
+Balance: $   100.00      Credit: $   50.00
+
+---- New Account ----
+
+Account: # 78            Name:   Cypher
+Balance: $   480.00      Credit: $ 4280.00
+
+---- Payment ----
+Account #78 has paid $424.00
+
+Pre Payment: 
+Account: # 78            Name:   Cypher
+Balance: $   480.00      Credit: $ 4280.00
+
+Post Payment: 
+Account: # 78            Name:   Cypher
+Balance: $    56.00      Credit: $ 4280.00
+
+---- Payment ----
+Account #44 has paid $42.00
+
+Pre Payment: 
+Account: # 44            Name:     Sage
+Balance: $   100.00      Credit: $   50.00
+
+Post Payment: 
+Account: # 44            Name:     Sage
+Balance: $    58.00      Credit: $   50.00
+
+---- New Account ----
+
+Account: #100            Name:  Phoenix
+Balance: $   424.00      Credit: $ 2423.00
+
+---- Query ----
+
+Account: #  1    Name:     Skye    Balance: $   -199.68     Credit: $  100.00
+Account: # 14    Name:     Jett    Balance: $     31.33     Credit: $  102.22
+Account: # 33    Name:  Killjoy    Balance: $   1458.22     Credit: $21222.11
+Account: # 34    Name:     Omen    Balance: $      0.40     Credit: $    0.00
+Account: # 44    Name:     Sage    Balance: $     58.00     Credit: $   50.00
+Account: # 78    Name:   Cypher    Balance: $     56.00     Credit: $ 4280.00
+Account: #100    Name:  Phoenix    Balance: $    424.00     Credit: $ 2423.00
+Account: #141    Name:     Raze    Balance: $   -222.76     Credit: $ 1000.23
+Account: #150    Name:     Yoru    Balance: $    999.98     Credit: $ 1000.21
+

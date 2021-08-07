@@ -1,0 +1,192 @@
+---- New Account ----
+
+Account: #100            Name:   Kermit
+Balance: $    50.50      Credit: $  500.00
+
+---- New Account ----
+
+Account: # 50            Name:    Keith
+Balance: $    25.50      Credit: $  250.00
+
+---- New Account ----
+
+Account: #125            Name:    Julia
+Balance: $     0.00      Credit: $  100.00
+
+---- New Account ----
+
+Account: # 75            Name:      Ali
+Balance: $   100.00      Credit: $  100.00
+
+---- New Account ----
+
+Account: # 25            Name:   George
+Balance: $     0.00      Credit: $    0.00
+
+---- New Account ----
+
+Account: #150            Name:     Mark
+Balance: $     0.00      Credit: $ 1000.00
+
+---- New Account ----
+
+Account: # 33            Name:    Terry
+Balance: $   100.00      Credit: $ 1000.00
+
+---- Query ----
+
+Account: # 25    Name:   George    Balance: $      0.00     Credit: $    0.00
+Account: # 33    Name:    Terry    Balance: $    100.00     Credit: $ 1000.00
+Account: # 50    Name:    Keith    Balance: $     25.50     Credit: $  250.00
+Account: # 75    Name:      Ali    Balance: $    100.00     Credit: $  100.00
+Account: #100    Name:   Kermit    Balance: $     50.50     Credit: $  500.00
+Account: #125    Name:    Julia    Balance: $      0.00     Credit: $  100.00
+Account: #150    Name:     Mark    Balance: $      0.00     Credit: $ 1000.00
+
+---- Payment ----
+Account: #45 was not found. Failure to pay: $100.00
+
+---- Charge ----
+Account: #45 was not found. Failure to charge : $100.00
+
+---- New Account ----
+
+Account: # 45            Name:    Kevin
+Balance: $   100.00      Credit: $  100.00
+
+---- Payment ----
+Account #45 has paid $100.00
+
+Pre Payment: 
+Account: # 45            Name:    Kevin
+Balance: $   100.00      Credit: $  100.00
+
+Post Payment: 
+Account: # 45            Name:    Kevin
+Balance: $     0.00      Credit: $  100.00
+
+---- Charge ----
+Account #45 has been charged $50.00
+
+Pre Charge: 
+Account: # 45            Name:    Kevin
+Balance: $     0.00      Credit: $  100.00
+
+Post Charge: 
+Account: # 45            Name:    Kevin
+Balance: $    50.00      Credit: $  100.00
+
+---- Query ----
+
+Account: # 25    Name:   George    Balance: $      0.00     Credit: $    0.00
+Account: # 33    Name:    Terry    Balance: $    100.00     Credit: $ 1000.00
+Account: # 45    Name:    Kevin    Balance: $     50.00     Credit: $  100.00
+Account: # 50    Name:    Keith    Balance: $     25.50     Credit: $  250.00
+Account: # 75    Name:      Ali    Balance: $    100.00     Credit: $  100.00
+Account: #100    Name:   Kermit    Balance: $     50.50     Credit: $  500.00
+Account: #125    Name:    Julia    Balance: $      0.00     Credit: $  100.00
+Account: #150    Name:     Mark    Balance: $      0.00     Credit: $ 1000.00
+
+---- Payment ----
+Account #100 has paid $10.50
+
+Pre Payment: 
+Account: #100            Name:   Kermit
+Balance: $    50.50      Credit: $  500.00
+
+Post Payment: 
+Account: #100            Name:   Kermit
+Balance: $    40.00      Credit: $  500.00
+
+---- Payment ----
+Account #50 has paid $25.00
+
+Pre Payment: 
+Account: # 50            Name:    Keith
+Balance: $    25.50      Credit: $  250.00
+
+Post Payment: 
+Account: # 50            Name:    Keith
+Balance: $     0.50      Credit: $  250.00
+
+---- Charge ----
+Account #75 has been charged $200.00
+
+Pre Charge: 
+Account: # 75            Name:      Ali
+Balance: $   100.00      Credit: $  100.00
+
+ERROR: This account is unable to charge $200.00
+
+Post Charge: 
+Account: # 75            Name:      Ali
+Balance: $   100.00      Credit: $  100.00
+
+---- Payment ----
+Account #75 has paid $250.00
+
+Pre Payment: 
+Account: # 75            Name:      Ali
+Balance: $   100.00      Credit: $  100.00
+
+Post Payment: 
+Account: # 75            Name:      Ali
+Balance: $  -150.00      Credit: $  100.00
+
+---- Charge ----
+Account #75 has been charged $200.00
+
+Pre Charge: 
+Account: # 75            Name:      Ali
+Balance: $  -150.00      Credit: $  100.00
+
+Post Charge: 
+Account: # 75            Name:      Ali
+Balance: $    50.00      Credit: $  100.00
+
+---- Charge ----
+Account #150 has been charged $1000.00
+
+Pre Charge: 
+Account: #150            Name:     Mark
+Balance: $     0.00      Credit: $ 1000.00
+
+Post Charge: 
+Account: #150            Name:     Mark
+Balance: $  1000.00      Credit: $ 1000.00
+
+---- Charge ----
+Account #150 has been charged $1.00
+
+Pre Charge: 
+Account: #150            Name:     Mark
+Balance: $  1000.00      Credit: $ 1000.00
+
+ERROR: This account is unable to charge $1.00
+
+Post Charge: 
+Account: #150            Name:     Mark
+Balance: $  1000.00      Credit: $ 1000.00
+
+---- Payment ----
+Account #150 has paid $500.00
+
+Pre Payment: 
+Account: #150            Name:     Mark
+Balance: $  1000.00      Credit: $ 1000.00
+
+Post Payment: 
+Account: #150            Name:     Mark
+Balance: $   500.00      Credit: $ 1000.00
+
+---- Query ----
+
+Account: # 25    Name:   George    Balance: $      0.00     Credit: $    0.00
+Account: # 33    Name:    Terry    Balance: $    100.00     Credit: $ 1000.00
+Account: # 45    Name:    Kevin    Balance: $     50.00     Credit: $  100.00
+Account: # 50    Name:    Keith    Balance: $      0.50     Credit: $  250.00
+Account: # 75    Name:      Ali    Balance: $     50.00     Credit: $  100.00
+Account: #100    Name:   Kermit    Balance: $     40.00     Credit: $  500.00
+Account: #125    Name:    Julia    Balance: $      0.00     Credit: $  100.00
+Account: #150    Name:     Mark    Balance: $    500.00     Credit: $ 1000.00
+
