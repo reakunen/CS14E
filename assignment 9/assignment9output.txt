@@ -1,0 +1,19 @@
+Enter item name: cheese burger
+Enter item price: 4.323
+
+| Menu Item: cheese burger |     | Price: 4.32 |
+
+Enter item name: chocolate vanilla icecream
+Enter item price: 3.29
+
+| Menu Item: chocolate vanilla icecream |     | Price: 3.29 |
+
+Enter item name: cheese burger salad
+Enter item price: 30.4224
+
+| Menu Item: cheese burger salad |     | Price: 30.42 |
+
+Enter item name: ham and cheese sandwich
+Enter item price: 3.29
+
+| Menu Item: ham and cheese sandwich |     | Price: 3.29 |
